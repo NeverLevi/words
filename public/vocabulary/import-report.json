@@ -1,0 +1,18 @@
+{
+  "pdfSource": "英语六级你还在背单词吗（新版）（7799词）乱序.pdf",
+  "jsonlSource": "六级 (1).jsonl",
+  "pdfDeclaredTotal": 7803,
+  "parsedPdfRows": 7803,
+  "successfulImports": 7803,
+  "explicitErrors": 0,
+  "jsonlRows": 5651,
+  "matchedJsonlWords": 3292,
+  "pdfOnlyWords": 4511,
+  "duplicateHeadwords": 6,
+  "missingMeaning": 0,
+  "missingPartOfSpeech": 9,
+  "generatedIntroExamples": 4589,
+  "validationErrors": 0,
+  "reconciliation": "7803 successful + 0 errors = 7803 PDF rows",
+  "vocabularySha256": "1ccc3a0bca6acfff652fc8dc7d135e2be401921144c6525bdfe104e8ed9d3c5c"
+}

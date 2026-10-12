@@ -1,0 +1,104 @@
+{
+  "version": "2026.10.12-1ccc3a0bca6a",
+  "totalWords": 7803,
+  "chunks": [
+    {
+      "file": "words-0001-0500.json",
+      "start": 1,
+      "end": 500,
+      "count": 500
+    },
+    {
+      "file": "words-0501-1000.json",
+      "start": 501,
+      "end": 1000,
+      "count": 500
+    },
+    {
+      "file": "words-1001-1500.json",
+      "start": 1001,
+      "end": 1500,
+      "count": 500
+    },
+    {
+      "file": "words-1501-2000.json",
+      "start": 1501,
+      "end": 2000,
+      "count": 500
+    },
+    {
+      "file": "words-2001-2500.json",
+      "start": 2001,
+      "end": 2500,
+      "count": 500
+    },
+    {
+      "file": "words-2501-3000.json",
+      "start": 2501,
+      "end": 3000,
+      "count": 500
+    },
+    {
+      "file": "words-3001-3500.json",
+      "start": 3001,
+      "end": 3500,
+      "count": 500
+    },
+    {
+      "file": "words-3501-4000.json",
+      "start": 3501,
+      "end": 4000,
+      "count": 500
+    },
+    {
+      "file": "words-4001-4500.json",
+      "start": 4001,
+      "end": 4500,
+      "count": 500
+    },
+    {
+      "file": "words-4501-5000.json",
+      "start": 4501,
+      "end": 5000,
+      "count": 500
+    },
+    {
+      "file": "words-5001-5500.json",
+      "start": 5001,
+      "end": 5500,
+      "count": 500
+    },
+    {
+      "file": "words-5501-6000.json",
+      "start": 5501,
+      "end": 6000,
+      "count": 500
+    },
+    {
+      "file": "words-6001-6500.json",
+      "start": 6001,
+      "end": 6500,
+      "count": 500
+    },
+    {
+      "file": "words-6501-7000.json",
+      "start": 6501,
+      "end": 7000,
+      "count": 500
+    },
+    {
+      "file": "words-7001-7500.json",
+      "start": 7001,
+      "end": 7500,
+      "count": 500
+    },
+    {
+      "file": "words-7501-7803.json",
+      "start": 7501,
+      "end": 7803,
+      "count": 303
+    }
+  ],
+  "sha256": "1ccc3a0bca6acfff652fc8dc7d135e2be401921144c6525bdfe104e8ed9d3c5c",
+  "generatedAt": "2026-10-12T12:30:43.711Z"
+}
