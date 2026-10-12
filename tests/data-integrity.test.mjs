@@ -15,8 +15,12 @@ describe('正式词库', () => {
   it('每个词都有六阶段所需字段和唯一选项', () => {
     for (const word of words) {
       expect(word.word).toBeTruthy();
+      expect(word.phonetic).toBeTruthy();
       expect(word.meanings[0]).toBeTruthy();
       expect(word.intro.exampleSentence).toBeTruthy();
+      expect(word.intro.exampleSentence).not.toMatch(/^The editor used/);
+      expect(word.contextQuestion.sentence).not.toMatch(/^The editor needs a word meaning/);
+      expect(word.intro.collocations[0]).toBeTruthy();
       expect(word.signingQuestion.requiredForm).toBe(word.word);
       for (const question of [word.meaningQuestion, word.collocationQuestion, word.reviewQuestion, word.contextQuestion]) {
         expect(question.options).toHaveLength(3);

@@ -27,3 +27,5 @@ CET6_PDF=/path/to/list.pdf CET6_JSONL=/path/to/dictionary.jsonl npm run data:bui
 ```
 
 PDF 是完整清单和释义来源，JSONL 仅补充能精确匹配的音标、例句、搭配和近义词。重复词条保留独立编号。用户进度保存在浏览器 IndexedDB，并可从设置页导出和导入。
+
+缺失字段的离线补全使用 ECDICT、Princeton WordNet、CMU Pronouncing Dictionary 和 NLTK 英语语料；现代词、英式拼写及专业派生词使用 `scripts/curated-overrides.mjs` 中的审核内容。准备好 ECDICT CSV 与 NLTK 语料目录后可运行 `npm run data:enrich`。

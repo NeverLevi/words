@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "data:build": "node scripts/build-vocabulary.mjs",
+    "data:enrich": "node scripts/enrich-vocabulary.mjs",
     "dev": "vite --host 0.0.0.0",
     "build": "tsc -b && vite build",
     "test": "vitest run",
@@ -19,9 +20,12 @@
     "@testing-library/react": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
+    "cmu-pronouncing-dictionary": "^3.0.0",
+    "csv-parse": "^7.0.3",
     "jsdom": "latest",
     "typescript": "latest",
     "vite": "latest",
-    "vitest": "latest"
+    "vitest": "latest",
+    "wordnet-db": "^3.1.14"
   }
 }

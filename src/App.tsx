@@ -19,7 +19,16 @@ function useGameData() {
     loadVocabulary().then(async data => {
       setWords(data.words); setManifest(data.manifest);
       const saved = await loadState();
-      setState(saved?.vocabularyVersion === data.manifest.version ? saved : initialState(data.manifest.version));
+      if (saved?.schemaVersion === 1) {
+        const validIds = new Set(data.words.map(word => word.id));
+        const progress = Object.fromEntries(Object.entries(saved.progress).filter(([id]) => validIds.has(id)));
+        const currentBatch = saved.currentBatch ? {
+          ...saved.currentBatch,
+          wordIds: saved.currentBatch.wordIds.filter(id => validIds.has(id)),
+          queue: saved.currentBatch.queue.filter(id => validIds.has(id)),
+        } : null;
+        setState({ ...saved, vocabularyVersion: data.manifest.version, progress, currentBatch, dueQueue: saved.dueQueue.filter(id => validIds.has(id)) });
+      } else setState(initialState(data.manifest.version));
     }).catch(reason => setError(reason instanceof Error ? reason.message : String(reason)));
   }, []);
   useEffect(() => { if (state) saveState(state).catch(reason => setError(String(reason))); }, [state]);

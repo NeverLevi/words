@@ -14,5 +14,37 @@
   "generatedIntroExamples": 4589,
   "validationErrors": 0,
   "reconciliation": "7803 successful + 0 errors = 7803 PDF rows",
-  "vocabularySha256": "1ccc3a0bca6acfff652fc8dc7d135e2be401921144c6525bdfe104e8ed9d3c5c"
+  "vocabularySha256": "7fd1a5d022d91f9560e98c9dbae02656edc7ec13f441d2fdc39b89d226b4b8a2",
+  "enrichment": {
+    "sources": [
+      "ECDICT",
+      "Princeton WordNet 3.1",
+      "CMU Pronouncing Dictionary",
+      "NLTK Brown",
+      "NLTK Reuters",
+      "NLTK Gutenberg",
+      "NLTK Movie Reviews",
+      "NLTK Inaugural",
+      "NLTK State of the Union",
+      "NLTK WebText"
+    ],
+    "phoneticsAdded": 4532,
+    "examplesReplaced": 4318,
+    "contextsReplaced": 6059,
+    "collocationsReplaced": 4796,
+    "curatedEntriesApplied": 183,
+    "definitionFallbacks": 803,
+    "unresolvedCounts": {
+      "noPhonetic": 0,
+      "templateExample": 0,
+      "templateContext": 0,
+      "templateCollocation": 0
+    },
+    "unresolved": {
+      "noPhonetic": [],
+      "templateExample": [],
+      "templateContext": [],
+      "templateCollocation": []
+    }
+  }
 }

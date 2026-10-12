@@ -1,5 +1,5 @@
 {
-  "version": "2026.10.12-1ccc3a0bca6a",
+  "version": "2026.10.12-7fd1a5d022d9",
   "totalWords": 7803,
   "chunks": [
     {
@@ -99,6 +99,6 @@
       "count": 303
     }
   ],
-  "sha256": "1ccc3a0bca6acfff652fc8dc7d135e2be401921144c6525bdfe104e8ed9d3c5c",
-  "generatedAt": "2026-10-12T12:30:43.711Z"
+  "sha256": "7fd1a5d022d91f9560e98c9dbae02656edc7ec13f441d2fdc39b89d226b4b8a2",
+  "generatedAt": "2026-10-12T13:20:25.601Z"
 }
