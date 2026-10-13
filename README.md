@@ -4,6 +4,8 @@
 
 在线打开：<https://neverlevi.github.io/words/>
 
+不用云服务器的 iPhone 离线版：[下载离线安装包](downloads/cet6-editorial-iphone-local-free.zip)。解压后按照包内的《iPhone本地安装说明》操作，只需免费的 a-Shell，安装完成后无需网络。
+
 ## 本地运行
 
 ```bash
