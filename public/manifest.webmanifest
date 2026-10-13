@@ -2,7 +2,7 @@
   "name": "六级编辑部",
   "short_name": "六级编辑部",
   "description": "六阶段处理每一份六级单词稿件",
-  "start_url": "./",
+  "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#f4efe3",
   "theme_color": "#17324d",
