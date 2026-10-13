@@ -18,6 +18,8 @@ npm test
 npm run build
 ```
 
+生产构建会生成 `dist/` 静态部署目录，并自动生成离线缓存清单。把 `dist/` 内的文件上传到任意支持 HTTPS 的静态网站空间后，用 iPhone Safari 打开一次，再选择“分享 → 添加到主屏幕”，即可离线使用完整词库。静态空间无需连接 GitHub；重新上传新版本后，缓存会自动更新。
+
 ## 词库
 
 `public/vocabulary/manifest.json` 管理 7,803 个 PDF 词条的静态分包，`public/vocabulary/import-report.json` 保存逐次导入校验结果。重新生成词库时，通过环境变量指定原始文件：

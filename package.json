@@ -7,7 +7,7 @@
     "data:build": "node scripts/build-vocabulary.mjs",
     "data:enrich": "node scripts/enrich-vocabulary.mjs",
     "dev": "vite --host 0.0.0.0",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && vite build && node scripts/generate-service-worker.mjs",
     "test": "vitest run",
     "preview": "vite preview --host 0.0.0.0"
   },
